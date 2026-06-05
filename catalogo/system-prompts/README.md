@@ -1,4 +1,4 @@
-# system-prompts
+# System prompts
 
 Añade aquí los system prompts que quieras archivar y compartir.
 

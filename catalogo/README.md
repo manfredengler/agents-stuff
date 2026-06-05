@@ -23,4 +23,4 @@ Espacio para **archivar** y **compartir** creaciones relacionadas con agentes.
 
 | Nombre | Descripción | Autor | Enlace |
 |---|---|---|---|
-| Ejemplo | Qué hace y para qué sirve | @usuario | `./ruta/al/recurso` |
+| Ejemplo | Qué hace y para qué sirve | @usuario | [Recurso](./ruta/al/recurso) |
