@@ -1,3 +1,9 @@
+---
+title: agents-stuff
+description: Repositorio para archivar y compartir creaciones de agentes de GitHub Copilot.
+tags: [agentes, copilot, catalog, skills, plugins, prompts, mcp]
+---
+
 # agents-stuff
 
 Repositorio para archivar y compartir creaciones de agentes.
