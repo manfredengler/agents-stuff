@@ -29,3 +29,4 @@ Un skill es una habilidad encapsulada que un agente puede invocar para realizar 
 
 | Nombre | Descripción | Autor | Enlace |
 | --- | --- | --- | --- |
+| grill-me-concepts-with-memory | Tutor socrático con memoria persistente para Claude.ai. Detecta nivel, explica con fuentes verificadas, interroga con 1 pregunta por turno y guarda progreso en árbol jerárquico de markdowns. | @manfredengler | [skill](./grill-me-concepts-with-memory/) |
