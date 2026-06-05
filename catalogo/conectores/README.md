@@ -1,4 +1,4 @@
-# conectores
+# Conectores
 
 Añade aquí los conectores que quieras archivar y compartir.
 

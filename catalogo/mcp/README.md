@@ -1,4 +1,4 @@
-# mcp
+# MCP
 
 Añade aquí los recursos MCP que quieras archivar y compartir.
 

@@ -1,4 +1,4 @@
-# plugins
+# Plugins
 
 Añade aquí los plugins que quieras archivar y compartir.
 

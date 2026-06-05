@@ -1,4 +1,4 @@
-# prompts
+# Prompts
 
 Añade aquí los prompts que quieras archivar y compartir.
 
