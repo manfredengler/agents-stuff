@@ -12,7 +12,7 @@ Espacio para **archivar** y **compartir** creaciones relacionadas con agentes.
 
 | Categoría | Descripción breve |
 | --- | --- |
-| [`skills/`](./skills/) | Skills reutilizables para agentes de Copilot |
+| [`skills/`](./skills/) | Skills reutilizables para agentes (Copilot, Claude, otros) |
 | [`plugins/`](./plugins/) | Extensiones y plugins para VS Code / Copilot |
 | [`conectores/`](./conectores/) | Conectores a APIs y fuentes de datos externas |
 | [`prompts/`](./prompts/) | Plantillas de prompt orientadas al usuario |
@@ -46,7 +46,7 @@ Elige la categoría según la naturaleza principal del recurso:
 
 | Si el recurso es… | Colócalo en |
 | --- | --- |
-| Una habilidad reutilizable que el agente puede invocar | `skills/` |
+| Una habilidad reutilizable que el agente puede invocar (Copilot, Claude, etc.) | `skills/` |
 | Una extensión de VS Code o Copilot | `plugins/` |
 | Una integración con una API o sistema externo | `conectores/` |
 | Una plantilla de prompt para el usuario final | `prompts/` |
