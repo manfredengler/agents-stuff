@@ -64,6 +64,12 @@ Si un recurso podría encajar en varias categorías, elige la más específica. 
 - Mantén la tabla del `README.md` de categoría ordenada **alfabéticamente** por nombre.
 - No incluyas recursos externos o de terceros sin indicarlo explícitamente en la descripción.
 
+### Sitio web (index.html)
+
+- Cada recurso agregado al catálogo **debe tener una entrada en [`/index.html`](/index.html)**.
+- La entrada debe incluir un **enlace directo a la carpeta del recurso en GitHub** (`https://github.com/manfredengler/agents-stuff/tree/main/catalogo/<categoria>/<nombre>/`).
+- Formato sugerido en el card del recurso: botón o link con texto "Ver en GitHub →" apuntando a la carpeta.
+
 ## Cómo contribuir
 
 1. Crea una carpeta para tu recurso: `catalogo/<categoria>/<nombre>/`.
