@@ -619,6 +619,60 @@ references/
         <strong>Dashboard /explorar:</strong> genera un HTML autocontenido con visualización interactiva de toda la memoria — árbol de temas, distribución de scores, filtros por estado. Sin dependencias externas.
       </div>
     </div>
+
+    <!-- IMPORTAR -->
+    <div class="card">
+      <div class="card-header">
+        <span class="label">Importar en Claude.ai</span>
+        <span class="filename">claude.ai → Proyecto → Instructions</span>
+      </div>
+      <div class="card-body">
+        <p>1. Creá un nuevo <strong>Proyecto</strong> en Claude.ai.</p>
+        <p>2. Abrí <strong>Project settings → Instructions</strong> y pegá el contenido del <code>SKILL.md</code>.</p>
+        <p>3. Iniciá una conversación dentro del proyecto — el skill estará activo.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="label">Importar en Claude Code (CLI)</span>
+        <span class="filename">.claude/commands/grill-me.md</span>
+      </div>
+      <pre><code class="language-bash"># Como comando custom (invocable con /grill-me)
+mkdir -p .claude/commands
+curl -sL https://raw.githubusercontent.com/manfredengler/agents-stuff/main/catalogo/skills/grill-me-concepts-with-memory/SKILL.md \
+  > .claude/commands/grill-me.md
+
+# O como instrucción de proyecto en CLAUDE.md
+curl -sL https://raw.githubusercontent.com/manfredengler/agents-stuff/main/catalogo/skills/grill-me-concepts-with-memory/SKILL.md \
+  >> CLAUDE.md</code></pre>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="label">Importar en GitHub Copilot (VS Code)</span>
+        <span class="filename">.github/copilot-instructions.md</span>
+      </div>
+      <pre><code class="language-bash"># Copilot lee este archivo automáticamente como contexto del repo
+mkdir -p .github
+curl -sL https://raw.githubusercontent.com/manfredengler/agents-stuff/main/catalogo/skills/grill-me-concepts-with-memory/SKILL.md \
+  > .github/copilot-instructions.md</code></pre>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="label">Otros agentes / CLIs</span>
+        <span class="filename">system prompt</span>
+      </div>
+      <pre><code class="language-bash"># Descargar el SKILL.md localmente
+curl -sL https://raw.githubusercontent.com/manfredengler/agents-stuff/main/catalogo/skills/grill-me-concepts-with-memory/SKILL.md \
+  -o skill.md
+
+# Luego pegá el contenido como system prompt en tu agente
+# Compatible con: OpenAI, Gemini, Mistral, Ollama y cualquier
+# interfaz que acepte instrucciones de sistema configurables.</code></pre>
+    </div>
+
   </section>
 
   <hr class="divider" />
