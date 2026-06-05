@@ -22,5 +22,5 @@ Espacio para **archivar** y **compartir** creaciones relacionadas con agentes.
 ## Plantilla de entrada
 
 | Nombre | Descripción | Autor | Enlace |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ejemplo | Qué hace y para qué sirve | @usuario | [Recurso](./ruta/al/recurso) |
